@@ -14,30 +14,33 @@
 </head>
 
 <body>
-    <header>
-        <form action="">
-            <input type="search" placeholder="Enter a city..." required />
-            <input type="submit" value="Search" />
-        </form>
-    </header>
-    <main>
-        <div>
-            <h1>Stuttgart</h1>
-            <p>
-                Tuesday 15:02, scattered clouds
-                <br />
-                Humidity: 87%, Wind: 3.11 km/h
-            </p>
-        </div>
-        <div>☁️ 7°C</div>
-    </main>
-    <footer>
-        This project was coded by 
-        <a href="https://github.com/Dan-ast" target="_blank">Anastasiia Dekret</a>, is 
-        <a href="https://github.com/Dan-ast/weather-project" target="_blank">open-sourced on GitHub</a> and 
-        <a href="https://weather-what.netlify.app/" target="_blank">hosted on Netlify</a>
-    </footer>
-
+    <div class="weather-app">
+        <header>
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
+        </header>
+        <main>
+            <div class="weather-app-data">
+                <div>
+                    <h1>Stuttgart</h1>
+                    <p>
+                        Tuesday 15:02, scattered clouds
+                        <br />
+                        Humidity: 87%, Wind: 3.11 km/h
+                    </p>
+                </div>
+                <div>☁️ 7°C</div>
+            </div> 
+        </main>
+        <footer>
+            This project was coded by 
+            <a href="https://github.com/Dan-ast" target="_blank">Anastasiia Dekret</a>, is 
+            <a href="https://github.com/Dan-ast/weather-project" target="_blank">open-sourced on GitHub</a> and 
+            <a href="https://weather-what.netlify.app/" target="_blank">hosted on Netlify</a>
+        </footer>
+    </div>
 </body>
 
 </html>
